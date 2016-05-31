@@ -1,0 +1,11 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ppt": "nodeppt start -p 8080 -d ./ -H 127.0.0.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
