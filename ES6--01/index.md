@@ -15,7 +15,6 @@ usemathjax: yes
 * Template Strings 字符串模板
 * Destructuring 解构
 * Default + Rest + Spread
-* Map、Set、WeakMap和WeakSet
 
 [slide]
 ## Let和Const块级作用域和常量
@@ -37,6 +36,3 @@ usemathjax: yes
 
 [slide]
 ## Default + Rest + Spread
-
-[slide]
-## Map、Set、WeakMap和WeakSet
