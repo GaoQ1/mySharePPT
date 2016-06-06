@@ -6,7 +6,7 @@ theme: moon
 usemathjax: yes
 
 [slide]
-# 快速搞定常用的ES6新特性
+# ECMAScript 2015(ES6)新特性
 ----
 * Let和Const块级作用域和常量 {:&.moveIn}
 * Arrows箭头函数
