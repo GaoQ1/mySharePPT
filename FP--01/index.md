@@ -15,7 +15,27 @@ usemathjax: yes
 [slide]
 ## 函数式编程(Functional Programming)是什么
 ---
-> Functional programming refers to the declarative evaluation of **pure functions** to create **immutable programs** by *avoiding externally observable side effects*.
+> Functional programming refers to the declarative evaluation of **pure functions** to create **immutable** programs by *avoiding externally observable side effects*.
+
+[slide]
+## 纯函数(Pure Function)
+> Pure function意指**相同的输入**，永远会得到**相同的输出**，而且没有任何显著的副作用。
+
+---
+```Javascript
+  //slice和splice
+
+  var arr = [1,2,3,4,5];
+  //pure
+  arr.slice(0,3);   //=> [1,2,3]
+  arr.slice(0,3);   //=> [1,2,3]
+  arr.slice(0,3);   //=> [1,2,3]
+
+  //impure
+  arr.splice(0,3);   //=> [1,2,3]
+  arr.splice(0,3);   //=> [4,5]
+  arr.splice(0,3);   //=> []
+```
 
 [slide]
 ## 为什么使用函数式编程
