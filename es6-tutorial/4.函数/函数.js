@@ -1,4 +1,4 @@
-/*// 默认值
+// 默认值
 function add(x,y){
   return x + y;
 }
@@ -9,7 +9,7 @@ function addDefault(x = 0, y = 0){
   return x + y;
 }
 let res2 = addDefault(1);
-console.log(res2);*/
+console.log(res2);
 
 /*//扩展运算符
 function add(...arg){
