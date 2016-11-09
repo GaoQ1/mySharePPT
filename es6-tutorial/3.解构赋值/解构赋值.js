@@ -58,24 +58,6 @@ function margin2(){
 var { left, bottom } = margin2();
 console.log(left,bottom);*/
 
-/*//参数匹配的解构
-console.log('--参数匹配的解构--');
-//ES5
-var user = {name: 'Tom', age: 18};
-function getUser(user){
-  var name = user.name;
-  var age = user.age;
-  return name + ' ' + age;
-}
-console.log(getUser(user));
-
-//ES6
-var user = {name: 'Tom', age: 18};
-function getUser({name, age}){
-  return `${name} ${age}`;
-}
-console.log(getUser(user));*/
-
 /*//深度匹配
 console.log('--深度匹配--');
 //ES5
