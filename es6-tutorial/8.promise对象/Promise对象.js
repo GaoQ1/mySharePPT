@@ -48,9 +48,9 @@ var p1 = Promise.resolve({'a': 1}).then((data) => {
 
 //Promise.reject()
 //Promise.reject()也会返回一个新的Promise实例，该实例的状态为rejected。用法和Promise.resolve方法一致
-Promise.reject('出错了').catch((data) => {
-  console.log(data);
-})
+// Promise.reject('出错了').catch((data) => {
+//   console.log(data);
+// })
 
 
 

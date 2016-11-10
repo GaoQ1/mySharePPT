@@ -68,7 +68,7 @@ console.log(Array.from(arr3));*/
 //Map结构的目的和基本用法
 // JavaScript的对象只能用字符串当作键。而为了解决这个问题，ES6提供了Map数据结构，类似于对象也是键值对的集合，键可以使用各种类型。
 //Example
-var m = new Map();
+/*var m = new Map();
 var o = {p: 'Hello World'};
 
 m.set(o, 'content');
@@ -89,4 +89,4 @@ for (let value of map.values()) {
 
 for (let item of map.entries()) {
   console.log(item[0], item[1]);
-}
+}*/

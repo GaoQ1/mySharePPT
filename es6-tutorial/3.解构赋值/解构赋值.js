@@ -1,4 +1,4 @@
-//从数组中获取元素
+/*//从数组中获取元素
 console.log('--获取数组中的元素--')
 //ES5
 var array = [1,2,3,4];
@@ -9,7 +9,7 @@ console.log(first, third);
 //ES6
 let array2 = [1,2,3,4];
 let [first2, ,third2] = array2;
-console.log(first2, third2);
+console.log(first2, third2);*/
 
 
 /*//交换值
